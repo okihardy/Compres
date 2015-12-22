@@ -1,0 +1,153 @@
+/*===============================================================
+                         Blog Sidebar
+================================================================*/
+
+.sidebar{
+    margin  : 35px 0; 
+    padding : 0 15px;
+    border  : 1px solid #dddddd;
+}
+
+.blog-sidebar .list-group-item{  
+    border-width    : 1px 0 1px 0;
+    border-color    : #ececec;
+    border-style    : solid;
+    font-size       : 14px;
+    color           : #8b8b8b;
+    font-weight     : 300;
+    padding         : 10px 0;
+    text-decoration : none;
+}
+
+.blog-sidebar .list-group-item span{ 
+    font-weight     : 300;
+}
+
+.blog-sidebar .list-group-item:first-child,
+.blog-sidebar .list-group-item:last-child{
+    border-radius   : 0;
+}
+
+.blog-sidebar .list-group-item.active, 
+.blog-sidebar .list-group-item.active:focus,
+.blog-sidebar .sidebar-heading{
+    background      : transparent;
+    color           : #4e4e4e;
+    font-size       : 16px;
+    font-weight     : bold;
+    text-transform  : uppercase;
+    border-width    : 0 0 0 0;
+    letter-spacing  : 1.5px;
+    text-decoration : none; 
+}
+
+.blog-sidebar .list-group-item.active{
+    position        : relative;
+}
+
+.blog-sidebar .list-group-item.active:before,
+.blog-sidebar .sidebar-heading:before{ 
+    content         : " ";
+    border-width    : 0 0 2px 0;
+    border-color    : rgba(232,71,0, 1);
+    border-style    :  solid ;
+    width           : 60px;
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+    text-decoration : none;
+}
+
+.blog-sidebar a.list-group-item:hover, .blog-sidebar a.list-group-item:focus{
+    background      : transparent;
+    color           : rgba(232,71,0,1);
+    text-decoration : none;    
+}
+
+
+.blog-sidebar .media {
+    margin      : 15px 0 ;
+}
+
+.blog-sidebar .media h3{
+    padding-top     : 7px;
+}
+.blog-sidebar .media .media-body h3 a{
+    font-family     : 'Open Sans', sans-serif;
+    font-size       : 13px;
+    color           : #4e4e4e;
+    text-transform  : uppercase;
+    text-decoration : none; 
+}
+
+.blog-sidebar .media .media-body h3 a:hover{
+    color   : rgba(232,71,0,1);
+    text-decoration : none;
+}
+
+.blog-sidebar .media .media-body p{  
+    font-family     : 'Open Sans', sans-serif;
+    font-size       : 13px;
+    color           : #9a9a9a;
+    font-weight     : 300;
+    line-height     : 15px; 
+    text-decoration : none;
+    }
+
+.blog-sidebar .media .media-body a span {
+    font-family         : 'Open Sans', sans-serif;
+    font-size           : 12px;
+    color               : #4e4e4e;
+    text-transform      : capitalize;
+    font-weight         : 300;
+    text-decoration     : none;
+    -webkit-transition  : color ease 0.35s;
+    -moz-transition     : color ease 0.35s;
+    -ms-transition      : color ease 0.35s;
+    -o-transition       : color ease 0.35s;
+    transition          : color ease 0.35s;
+}
+
+.blog-sidebar .media .media-body a:hover span {
+    color   : rgba(232,71,0,1);
+    text-decoration : none;
+}
+
+.media .media-left .media-object{
+    max-width : 100px;
+}
+
+.blog-sidebar .sidebar-heading{  
+    padding         : 11px 0 8px 0;
+    border-bottom   : 1px solid #ececec;
+    position        : relative;
+    text-decoration : none;
+
+}
+
+.blog-sidebar  ul{
+    padding  : 19px 0;
+}
+
+.blog-sidebar  ul li {
+    display     : inline-block;
+    margin      : 10px 0;
+}
+
+.blog-sidebar  ul li a{
+    background      : transparent;
+    margin-right    : 5px;
+    border          : 1px solid #dddddd;
+    font-family     : 'Roboto Condensed', sans-serif;
+    font-size       : 13px;
+    color           : #999999;
+    text-transform  : uppercase;
+    padding         : 10px 12px;   
+    text-decoration : none;
+}
+
+.blog-sidebar  ul li a:hover{
+    background      : rgba(272,45,40,0.9);
+    color           : #ffffff;  
+    text-decoration : none;
+}
